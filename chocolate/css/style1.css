@@ -1,0 +1,259 @@
+
+.main1, .main2, .main3{
+	height: 900px;
+	background-image: url(../images/chocolate_background_drops_sprays_79174_3840x2160.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.row{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+header{
+	background-color: rgba(70, 45, 45, 0.7);
+	height: 80px;
+	position: fixed;
+	z-index: 10;
+	text-align: center;
+	line-height: 80px
+}
+ul{
+	width: 100%;
+}
+.nav-link{
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+	font-family: cursive;
+	transition: 2s
+}
+.nav-link:hover{
+	text-decoration: none;
+	color: white;
+	text-shadow: 3px 3px 3px #000000;
+	transform: scale(1.5);
+}
+div.head{
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 15px;
+	text-align: center;
+	background-color: #D59DDC
+}
+
+.ctext{
+	text-align: center;
+	line-height: 150px;
+	height: 150px;
+	position: relative;
+	top: 300px;
+	overflow: hidden;
+}
+.text{
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	animation: text 2s linear infinite;
+}
+.main1{
+	padding-bottom: 100px;
+}
+img{
+	width: 100%;
+	height: 200px;
+	margin-top: 500px;
+	cursor: pointer;
+	transition: 2s;
+}
+img:hover{
+	transform: scale(1.5);
+	position: relative;
+	z-index: 1;
+}
+.main2{
+	background-image: url(../images/iStock-649046044-dark-chocolate-with-cocoa-beans.jpg);
+}
+.mid{
+	padding-top: 50px
+}
+/*@media screen and (max-width: 700px){
+	.main2{
+		margin-top: 250px
+	}
+}*/
+.choco{
+	font-size: 40px;
+	font-family: cursive;
+	font-weight: bold;
+    color: white;
+    text-align: right;  
+}
+.box1, .box2{
+	height: 600px;
+	padding-top: 50px;
+}
+div.slide{
+	height: 600px;
+    background-image: url(../images/med1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    animation: slide 10s linear infinite
+}
+.story{
+	font-size: 25px;
+	color: white;
+    margin-top: 50px;
+    text-align: left;  
+}
+.main3{
+	background-image: url(../images/cicolata_51754811.jpg);
+	padding-top: 100px
+}
+.contact {
+	height: 650px;
+	background-color: rgba(160, 136, 170, 0.7); 
+	font-size: 50px;
+	font-weight: bold;
+	font-family: cursive;
+	text-decoration: none;
+	color: #441441;
+	text-shadow: 2px 2px 5px black;
+	text-align: center;
+	box-shadow: 10px 10px 25px #2C222C;
+	border-radius: 20px;
+}
+
+label {
+  	font-size: 25px;
+  	font-family: cursive;
+  	border-top: 2px solid;
+  	border-bottom: 2px solid;
+  	margin: 5px;
+  	color: #452241;
+  	cursor: pointer;
+}
+input{
+  	width: 50px;
+  	height: 40px;
+  	background-color: transparent;
+  	font-size: 15px;
+  	font-weight: bold;
+  	font-family: cursive;
+  	color: #6A0126;
+  	text-align: center;
+  	margin-left: 25px;
+  	border-top: 1px solid #650909;
+  	border-bottom: 1px solid #650909;
+}
+
+form {
+  text-align: center;
+}
+
+.name {
+  margin-left: 0px;
+}
+.data {
+  width: 300px;
+  height: 40px;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid #650909;
+  border-radius: 5px;
+  display: block;
+  text-align: left;
+  margin-bottom: 30px;
+  margin: 30px auto;
+}
+textarea {
+	width: 300px;
+	height: 80px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: cursive;
+	border: 1px solid #650909;
+	border-radius: 5px;
+}
+.send {
+  width: 80px;
+  text-align: center;
+}
+#name:focus, #email:focus, #phone:focus, #text:focus {
+  background-color: transparent;
+  border: none;
+  box-shadow: 5px 5px 10px #1F1F1F;
+}
+
+footer a{
+	font-size: 30px;
+	margin-left: 20px;
+	transition: 2s;
+	color: white								
+}
+footer a:hover{
+	font-size: 50px;
+	color: #986767
+}
+footer{
+	background-color: #553B48;
+	/*margin-top: 100px;*/
+	text-align: center;
+	line-height: 100px
+}
+
+
+@keyframes text{
+	0%{
+		transform: scale(1);
+    	color: #BA9393;
+	}
+	25% {
+    	transform: scale(1.5) rotate(20deg);
+    	color: #886363;
+	}
+	50% {
+    	transform: scale(2) rotate(-20deg);
+    	color: #67523F;
+	}
+	75% {
+    	transform: scale(2.5);
+    	color: #46392B;
+	}
+	100% {
+    	transform: scale(3);
+    	color: white;
+	}
+}
+@keyframes slide{
+	0%{
+		background-image: url(../images/med2.jpg);
+		box-shadow: 10px 10px 25px #7B620A;
+		border-radius: 20px
+	}
+	25%{
+		background-image: url(../images/med3.jpg);
+		box-shadow: 10px 10px 25px #BE97CC;
+		border-radius: 20px
+
+	}
+	50%{
+		background-image: url(../images/med4.jpg);
+		box-shadow: 10px 10px 25px #EF9EAD;
+		border-radius: 20px
+
+	}
+	75%{
+		background-image: url(../images/med5.jpg);
+		box-shadow: 10px 10px 25px #FDD855;
+		border-radius: 20px
+
+	}
+	100%{
+		background-image: url(../images/med6.jpg);
+		box-shadow: 10px 10px 25px #A8EFF5;
+		border-radius: 20px
+	}
+}

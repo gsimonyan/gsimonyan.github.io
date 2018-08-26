@@ -1,0 +1,236 @@
+body{
+	width: 100%;
+	background-image: url(../images/light-wood2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	
+}
+header{
+	height: 150px;
+	background-color: rgba(79, 45, 16, 0.9);
+/*	position: fixed;
+	top: 0px;
+	left: 0px;*/
+	border-bottom: 5px solid #433030;
+	box-shadow: 5px 5px 10px #362828;
+	box-sizing: border-box;
+	margin-top: 0px;
+	z-index: 1
+}
+ul{
+	width: 100%;
+}
+.nav-link{
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+	font-family: cursive;
+	transition: 2s
+}
+.nav-link:hover{
+	text-decoration: none;
+	color: white;
+	text-shadow: 3px 3px 3px #000000;
+	transform: scale(1.5);
+}
+.row{
+	width: 100%;
+}
+.head1, .head2, .head3{
+	text-align: center;
+	line-height: 100px;
+}
+
+img.b1{
+	width: 30px;
+	height: 60px;
+	margin-top: 20px;
+	animation: bottle 2s linear infinite;
+}
+img.b2{
+	width: 30px;
+	height: 60px;
+	margin-top: 20px;
+	animation: bottle 2s linear infinite;
+}
+img.logo{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	position: relative;
+	top: 20px
+}
+p.h{
+	font-size:30px;
+	color: #BBA9A9;
+}
+.c{
+	height: 600px;
+	margin-top: 250px;
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+.m{
+	padding-top: 100px;
+	padding-bottom: 100px
+}
+@media screen and (max-width: 700px){
+	.m{
+		margin-bottom: 500px
+	}
+}
+
+.row2{
+	width: 100%
+	height: 600px
+}
+.box1, .box2{
+	height: 600px;
+}
+.box1{
+	background-color: #18331B
+}
+img.big{
+	width: 100%;
+	height: 100%;
+}
+.J{
+	font-size: 18px;
+	font-family: Courgette;
+	color: white;
+	height: 600px;
+	overflow: auto;
+	padding: 0px !important;
+	margin: 0px;
+}
+.row3{
+	width: 100%;
+	height: 600px;
+	margin-top: 50px;
+}
+.small1{
+	height: 600px;
+}
+.xs1{
+	height: 280px;
+	background-image: url(../images/whiskey.jpg);
+	background-size: 100% 100%;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.xs2{
+	height: 300px;
+	background-image: url(../images/Jameson-Academy-Experience-Jameson-Wall.jpg);
+	background-size: 100% 100%;
+}
+.small2{
+	background-image: url(../images/promo_384x384.jpg);
+	background-size: 100% 100%;
+}
+@media screen and (max-width: 700px){
+	.small1{
+		margin-top: 550px
+	}
+	.box2{
+		margin-top: 25px;
+		margin-bottom: 25px
+	}
+	.b{
+		margin-top: 800px
+	}
+}
+.b{
+	height: 300px;
+	margin-top: 50px; 
+	margin-bottom: 100px;
+	background-color: #18331B;
+	border-radius: 5px
+}
+.W{
+	font-size: 30px;
+	font-family: bevan;
+	color: #9E9269;
+	position: relative;
+	top: 150px;
+	left: 50px;
+	transform-origin: 5% 10%;
+	animation: text 4s linear infinite;
+}
+.W1{
+	font-size: 15px;
+	font-family: bevan;
+	color: #9E9269;
+	position: relative;
+	top: 180px;
+	left: 10px;
+}
+h1, h2{
+	font-size: 35px;
+	font-family: bevan;
+	color: #9E9269;
+}
+h2{
+	font-size: 20px
+}
+.join{
+	width: 80px;
+	height: 30px;
+	background-color: #D3C18A;
+	position: relative;
+	top: 50px;
+	left: calc(50% - 40px);
+	box-shadow: 5px 5px 10px #0F0D0D
+}
+a{
+	font-size: 15px;
+	font-family: bevan;
+	text-decoration: none;
+	color: #1A3317
+}
+footer{
+	background-color: rgba(79, 45, 16, 0.9);
+	height: 100px;
+	text-align: center;
+	line-height: 100px
+}
+footer a{
+	font-size: 30px;
+	margin-left: 20px;
+	transition: 2s								
+}
+footer a:hover{
+	font-size: 50px;
+	color: black
+}
+
+@keyframes bottle{
+	0%{
+
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+@keyframes text{
+	0%{
+		
+    	color: #BA9393;
+	}
+	25% {
+    	
+    	color: #886363;
+	}
+	50% {
+    	transform: scale(3);
+    	color: #67523F;
+	}
+	75% {
+    	
+    	color: #46392B;
+	}
+	100% {
+    	
+    	color: white;
+	}
+}

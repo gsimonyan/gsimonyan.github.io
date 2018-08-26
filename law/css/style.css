@@ -1,0 +1,282 @@
+.block1{
+	width: 100%;
+	background-image: url(../images/1280px-Moravian_Provincial_Diet_-_Assembly_hall_04.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.row{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+header{
+	width: 100%;
+	background-color: rgba(72, 47, 20, 0.8);
+}
+ul{
+	width: 100%;
+}
+.nav-link{
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+	font-family: Oswald;
+	transition: 2s
+}
+.nav-link:hover{
+	text-decoration: none;
+	color: white;
+	text-shadow: 3px 3px 3px #000000;
+	transform: scale(1.5);
+}
+.boxl{
+	width: 100%;
+	height: 800px;
+	background-color: rgba(198, 190, 170, 0.6);
+}
+
+.br{
+	font-size: 40px;
+	padding-top: 200px;
+	font-family: Abril Fatface;
+	color: white;
+	text-shadow: 3px 3px 4px #312417
+}
+.brs{
+	font-size: 30px;
+	text-align: center;
+	font-family: Abril Fatface;
+	color: white;
+	text-shadow: 3px 3px 4px #312417;
+	overflow: hidden; 
+  	border-right: .15em solid #2B2416; 
+  	white-space: nowrap; 
+  	margin: 0 auto; 
+  	letter-spacing: .15em; 
+  	animation: typing 5s steps(40, end) infinite, blink-caret 2s step-end infinite;
+}
+.tb3{
+	width: 600px;
+	margin-left: calc(50% - 300px)
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  0% { border-color: #2B2313; }
+  100% { border-color: #2B2313; }
+ 
+ }
+ .block2{
+ 	background-color: white
+ }
+ .box2l{
+ 	width: 100%;
+ 	/*height: 600px;*/
+ 	background-color:rgba(65, 3, 3, 0.5);
+ }
+ .bul{
+ 	width: 100%;
+ 	height: 200px;
+ }
+.bul li{
+	width: 100%;
+	height: 50px;
+	text-align: left;
+	list-style-type: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #634228;
+	cursor: pointer;
+	transition: 2s;
+}
+.list:hover{
+	font-family: cursive;
+	text-shadow: 2px 2px 2px #AFAD6C;
+}
+.list1{
+	font-size: 15px !important;
+	color: black !important;
+}
+.block3{
+	width: 100%;
+	background-color: rgba(65, 3, 3, 0.8);
+	padding-top: 50px;
+	border-bottom: 8px solid #2A211B;
+	border-top: 8px solid #2A211B;
+	overflow: hidden;
+}
+.b3s{
+	font-size: 20px;
+	font-family: Abril Fatface;
+	color: white;
+	text-align: center;
+	padding-bottom: 50px
+}
+.b3{
+	font-family: Abril Fatface;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 3px 3px 4px black;
+	animation: vision 5s linear infinite;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+@media screen and (max-width: 700px){
+	.br, .brs{
+		font-size: 20px
+	}
+	.boxr{
+		width: 80%
+	}
+	.b3s{
+		font-size: 15px;
+	}
+	.s{
+		font-size: 10px
+	}
+	.tb3{
+	width: 300px;
+	margin-left: calc(50% - 150px)
+	}
+}
+
+@keyframes vision{
+	0%{
+
+	}
+	25%{
+		transform: scale(1.5);
+	}
+	50%{
+		transform: scale(2);
+		color: #D07F7F
+	}
+	75%{
+		transform: scale(0);
+		color: #F8D893
+	}
+	100%{
+		transform: scale(3);
+		color: #59361D;
+	}
+}
+.block4{
+	width: 100%;
+	height: 400px;
+	background-image: url(../images/3-business.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.block5{
+	width: 100%;
+	background-color: #BB9D9D;
+	padding-bottom: 100px
+}
+.b5{
+ 	font-size: 30px;
+	font-family: Abril Fatface;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+
+.smp, .spm1{
+	font-size: 20px;
+	font-family: Abril Fatface
+}
+
+.big{
+	text-align: center;
+
+}
+.big img:hover{
+	transform: scale(1.5);
+	position: relative;
+	z-index: 1;
+	transition: 2s
+}
+.cont{
+	font-size: 25px;
+	font-family: Abril Fatface;
+}
+.block6{
+	width: 100%;
+	background-image: url(../images/fantastic-office-room.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.down{
+	background-color: rgba(5,5,5,0.5);
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+.dl{
+	text-align: center;
+	line-height: 250px
+}
+.cont{
+	font-size: 30px;
+	color: white;
+	font-family: Abril Fatface;
+}
+
+.dr{
+	text-align: left;
+	border-left: 2px solid
+}
+input{
+  width: 50%;
+  height: 40px;
+  display: block;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 5px;
+  border: none;
+  border-bottom: 2px solid white
+ }
+ textarea {
+ 	height: 100px;
+ 	font-size: 15px;
+ 	font-family: cursive;
+ 	border-radius: 5px;
+ 	display: block;
+ 	margin-top: 10px;
+ 	background-color: rgba(49, 47, 69, 0.5) 
+}
+.s{
+	width: 100px;
+	cursor: pointer;
+	border: 1px solid black
+}
+#name:focus, #email:focus, #phone:focus, #text:focus, .s{
+  /*background-color: transparent;*/
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+}
+footer a{
+	font-size: 30px;
+	margin-left: 20px;
+	transition: 2s;
+	color: white								
+}
+footer a:hover{
+	font-size: 50px;
+	color: #986767
+}
+footer{
+	background-color: #553B48;
+	text-align: center;
+	line-height: 100px
+}

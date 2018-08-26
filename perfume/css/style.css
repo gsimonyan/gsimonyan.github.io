@@ -1,0 +1,356 @@
+.block1, .block2, .block3, .block4{
+	width: 100%;
+	background-image: url(../images/parfume.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;	
+}
+.block2{
+		background-image: url(../images/o.21230.jpg)
+}
+.block3{
+	background-image: url(../images/creed.images.jpg);
+	height: 700px
+}
+.block4{
+	background-image: url(../images/fragm6.jpg);
+	height: 700px;
+}
+body{
+	background-color: #F2E8EF
+}
+
+header{
+	background: linear-gradient(#291B26, #DFADC9);
+}
+header a{
+	text-decoration: none;
+	font-size: 30px;
+	color: #FED1E5;
+	font-family: Chicle;
+	transition: 2s
+}
+header a:hover{
+	text-decoration: none;
+	text-shadow: 2px 2px 2px #242222;
+	color: #533250;
+	font-size: 40px
+}
+.c{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+
+.ph1, .ph2, .ph3, .ph4, .ph5, .ph6{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	transition: 2s;
+}
+.ph1{
+	transform: rotate(20deg)
+}
+.ph2{
+	transform: rotate(-20deg);
+}
+.ph3{
+	transform: rotate(20deg);
+}
+.ph4{
+	transform: rotate(-20deg);
+}
+.ph5{
+	transform: rotate(20deg);
+}
+.ph6{
+	transform: rotate(-20deg);
+}
+.photo img:hover{
+	transform: rotate(0deg);
+	position: relative;
+	z-index: 1;
+	transform: scale(1.5);
+	margin-bottom: 25px
+}
+@media screen and (max-width: 700px){
+	.photo img{
+		transform: rotate(0deg);
+	}
+	.s{
+		font-size: 10px
+	}
+}
+.c1{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 10px;
+}
+p.h, .ch1{
+	font-size: 30px;
+	text-align: center;
+	font-family: Gloria Hallelujah
+}
+p.h1{
+	font-size: 15px;
+	color: #4C2433;
+	font-family: Lora;
+	text-align: justify;
+}
+i{
+	font-size: 15px;
+	color: black
+}
+
+.cyprus{
+	width: 100%;
+	/*height: 150px;*/
+	position: relative;
+	/*top: -180px;*/
+	left: 0px;
+	z-index: 2
+}
+.france{
+	width: 100%;
+	/*height: 200px;*/
+	position: relative;
+	/*top: -300px;*/
+}
+
+.dior{
+	width: 100%;
+	height: 600px;
+	background-color: rgba(70, 25, 44, 0.5);
+	color: white;
+}
+.d1{
+	font-size: 15px;
+	color: white;
+	font-family: Lora;
+	text-align: justify;
+}
+.pic{
+	background-color: rgba(70, 25, 44, 0.5);
+}
+.diorpic img{
+	width: 100%;
+	height: 300px
+}
+.video{
+	width: 100%;
+	height: 300px;
+}
+iframe{
+	width: 100%;
+	height: 290px;
+	margin-top: 10px;
+}
+.ch{
+	padding-top: 150px;
+	padding-bottom: 50px
+}
+.chanel, .chanelpic{
+	width: 100%;
+	height: 600px;
+	background-color: rgba(4, 48, 45, 0.5);
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	overflow: hidden;
+	padding-top: 25px;
+}
+.chanelpic img{
+	width: 100%;
+	height: 280px;
+	margin-bottom: 20px;
+}
+.chlogo{
+	text-align: center;
+	position: relative;
+	top: -350px;
+	left: 0px;
+
+}
+.chlogo img{
+	width: 150px;
+	height: 50px;
+	animation: chanel 3s linear infinite;
+	opacity: 0.6
+}
+
+.wrapper{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+	top: 50px;
+	margin: 0px auto;
+	transform-style: preserve-3d;
+	transform: rotateX(-20deg);
+}
+.creedlogo{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 50px;
+	left: calc(50% - 100px);
+	transform-origin: 50% 50% -100px;
+	transform-style: preserve-3d;
+	animation: 5s rotate linear infinite;
+
+}
+.creedlogo img{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	opacity: 0.6;
+	border-radius: 20px;
+	transform-origin: 50% 50% -100px;
+	box-shadow: 5px 5px 10px #49495C;
+	background-color: #E5C6DB
+}
+.creed2{
+	transform: rotateX(90deg);
+}
+.creed3{
+	transform: rotateX(-90deg);
+}
+.creed4{
+	transform: rotateY(90deg);
+}
+.creed5{
+	transform: rotateY(-90deg);
+}
+.creed6{
+	transform: rotateY(180deg);
+}
+.cont{
+	background-color: rgba(23, 21, 38, 0.6);
+	color: white;
+	position: relative;
+	top: 100px;
+	padding-top: 50px;
+}
+label {
+  font-size: 25px;
+  font-family: cursive; 
+  border-bottom: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
+@media screen and (max-width: 570px){
+	label{
+		font-size: 10px;
+	}
+}
+form{
+	text-align: center
+}
+input{
+  width: 100px;
+  height: 40px;
+  display: block;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #F7C9D9;
+  margin-top: 5px;
+  border: none;
+  border-bottom: 2px solid #221A30
+ }
+ textarea {
+ 	height: 100px;
+ 	font-size: 15px;
+ 	font-family: cursive;
+ 	border-radius: 5px;
+ 	display: block;
+ 	margin-top: 10px;
+ 	background-color: rgba(49, 47, 69, 0.5) 
+}
+.s{
+	width: 100px;
+	cursor: pointer
+}
+#name:focus, #email:focus, #phone:focus, #text:focus, .s{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #9B9BA2;
+}
+button{
+	border-radius: 5px;
+	background-color: transparent;
+	color: white;
+	font-family: cursive;
+	cursor: pointer
+}
+button:focus{
+	outline: none;
+}
+.row{
+	width: 100%;
+}
+.go{
+	width: 100%;
+	font-size: 15px;
+	font-family: cursive;
+	color: white;
+}
+.go:hover{
+	text-decoration: none;
+	color: white
+}
+.to{
+	border-radius: 6px;
+}
+footer{
+	background: linear-gradient(black,#072729) ;
+	text-align: center;
+	line-height: 80px
+}
+footer a{
+	font-size: 30px;
+	margin-left: 20px;
+	transition: 2s;
+	color: #52685D								
+}
+footer a:hover{
+	font-size: 50px;
+	color: #35473C
+}
+
+
+
+@keyframes chanel{
+	0%{
+
+	}
+	20%{
+		transform: scaleX(1) rotate(30deg);
+	}
+	40%{
+		transform: scaleX(1,5);
+	}
+	60%{
+		transform: scaleX(2) rotate(-30deg)
+	}
+	80%{
+		transform: scaleX(2,5) rotate(-30deg) 
+	}
+	100%{
+		transform: scaleX(3) rotate(-30deg) 
+	}
+}
+@keyframes rotate{
+	0%{
+		transform: rotateY(0deg) rotateX(30deg);
+	}
+	100%{
+		transform: rotateY(360deg) rotateX(180deg) ;
+	}
+}
+
+
+

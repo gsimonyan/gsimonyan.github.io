@@ -1,0 +1,315 @@
+.block1{
+	width: 100%;
+	background-image: url(../images/Untitled-1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	height: 750px;
+	padding-bottom: 50px;
+}
+
+header{
+	background: linear-gradient(#D3D1D8, #F8F9FF)
+}
+.toprow{
+	text-align: center;
+	line-height: 80px
+}
+.logo{
+	width: 1.5em;
+	height: 1.5em;
+}
+.nav-link{
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+	font-family: Oswald
+}
+.bu, .f, .mp, .f6{
+	font-size: 2em;
+	font-family: Roboto Slab;
+	text-align: center;
+	line-height: 80px;
+}
+.top a{
+	text-decoration: none;
+	text-align: center;
+	line-height: 60px;
+	font-size: 1.5em;
+	color: #BE6F5A
+}
+.right{
+	width: 2%;
+	position: fixed;
+	top: 250px;
+	right: 20px;
+	z-index: 5;
+}
+.li{
+	font-size: 2em;
+	list-style-type:circle;
+	cursor: pointer;
+}
+.list{
+	font-size: 0;
+	transition: 2s;
+	position: relative;
+	left: -150px;	
+	font-family: cursive;
+	text-shadow:  2px 2px 5px #CA75CD;
+}
+.li:hover{
+	list-style-type: disc;
+}
+.li:hover .list{
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+
+}
+#home:focus{
+	list-style-type:circle;
+}
+.welcome{
+	width: 100%;
+	margin-top: 200px;
+	font-size: 6em;
+	font-family: Pacifico;
+	color: white;
+	color: black
+}
+
+.text{
+	width: 100%;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: Roboto Slab;
+	text-shadow: 2px 2px 2px #434357
+}
+.c{
+	/*width: 100%;*/
+	height: 450px;
+	background-color: #E2DFE2;
+	/*margin-top: 300px;*/
+
+}
+.c1{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	top: -150px;
+	z-index: 1
+}
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8{
+	width: 100%;
+	height: 250px;
+	background-color: #CE9E9E;
+}
+.pic2{
+	background-image: url(../images/beauty-tips-facial-care.jpg);
+	background-size: 100% 100%;
+}
+.pic3{
+	background-color: black
+}
+.pic4{
+	background-image: url(../images/women-love-makeup.jpg);
+	background-size: 100% 100%;
+}
+.pic5{
+	background-image: url(../images/gvlzzj7wQcu._UX287_TTW__.jpg);
+	background-size: 100% 100%;
+}
+.pic6{
+	background-color: white
+}
+.pic7{
+	background-image: url(../images/nails-hand.jpg);
+	background-size: 100% 100%;
+}
+.p1, .p3{
+	font-size: 3em;
+	text-align: center;
+	line-height: 50px;
+}
+.p2{
+	text-align: center;
+}
+.p2 a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.5em;
+	color: #BE6F5A;
+	background-color: transparent;
+}
+.f,.mp, .p3{
+	color: white
+}
+.f6{
+	color: black
+}
+.block2{
+	width: 100%;
+	/*height: 700px;*/
+	background-image: url(../images/Tamira-Jarrel-flatlay-2000.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	padding-top: 70px;
+	padding-bottom: 70px
+}
+.ws{
+	width: 100%;
+	height: 35em;
+	background-color: black;
+	padding-top: 50px
+}
+.pws{
+	font-size: 2em;
+	font-family:Pacifico;
+	color: white;
+	text-align: center; 
+}
+.price{
+	width: 100%;
+}
+.pl{
+	font-size: 25px;
+	list-style-type:none;
+	margin-top: 10px;
+	color: white;
+	text-align: justify;
+}
+.block3{
+	width: 100%;
+	padding-bottom: 20px;
+	background-color: black;padding-bottom: 50px;
+}
+.book{
+	width: 100%;
+	/*height: 400px;*/
+	background-color: white
+}
+.small, .small1{
+	width: 100%;
+	/*height: 250px;*/
+	margin-top:75px; 
+}
+.small{
+	border-right: 1px solid 
+}
+.left{
+	font-size: 2em;
+	font-family: Roboto Slab;
+	text-align: center;
+	line-height: 100px
+}
+.xs, .xs1{
+	font-size: 1em;
+	font-family: Roboto Slab;
+}
+.xs{
+	border-right: 1px solid;
+	text-align: right;
+}
+
+.textr{
+	font-size: 1em;
+	font-family: Roboto Slab;
+	text-align: center;
+	padding-top: 30px
+}
+.book{
+	text-align: center;
+	border: 1px solid #BE6F5A
+}
+.block4{
+	width: 100%;
+	/*height: 650px;*/
+	background-image: url(../images/Spring_Beauty_Background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	padding-top: 100px;
+	padding-bottom: 100px
+}
+.visit{
+	width: 100%;
+	height: 30em;
+	background-color: rgba(5, 5, 5, 0.5);
+}
+.add, .op{
+	font-size: 1em;
+	font-family: Roboto Slab;
+	text-align: center;
+	color: white
+}
+.op{
+	font-weight: bold;
+}
+form{
+	text-align: center;
+}
+input{
+	display: block;
+	font-size: 1em;
+  	font-family: Roboto Slab;
+  	background-color: transparent;
+  	margin-bottom: 5px;
+  	border: 1px solid white;
+  	cursor: pointer; 
+}
+#name:focus, #email:focus, #phone:focus, textarea, .send{
+  	background-color: transparent;
+  	border: none;
+  	outline: none;
+  	border-radius: 5px;
+  	box-shadow: 5px 5px 10px black;
+}
+.send{
+	margin-top: 5px;
+  	cursor: pointer; 
+}
+footer{
+	background: black;
+	height: 80px;
+	text-align: center;
+	line-height: 100px
+}
+footer a{
+	font-size: 30px;
+	margin-left: 20px;
+	transition: 2s;
+	color: #52685D								
+}
+footer a:hover{
+	font-size: 50px;
+	color: #35473C
+}
+
+.w{
+	color: white
+}
+@media screen and (max-width: 700px){
+	.welcome{
+		font-size: 3em
+	}
+	.f{
+		font-size: 1.5em
+	}
+	.right{
+		display: none;
+	}
+	.visit{
+		height: 40em;
+	}
+	.send{
+		position: relative;
+		font-size: 10px;
+	}
+	.block4{
+		padding-bottom: 25px;
+		padding-top: 25px
+	}
+}
+
